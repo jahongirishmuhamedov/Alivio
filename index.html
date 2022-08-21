@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alivio</title>
     <link rel="stylesheet" href="./css/reset.css">
@@ -13,12 +14,161 @@
     <div class="container">
         <div class="header__wrapper">
             <div class="header__logo">
-                <nav class="header__nav">
-
-                </nav>
+                <img class="header__logo-img" src="./img/logo.svg" alt="logo">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__items">
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Why Alivio</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Solutions</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Community</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__login">
+                <a class="btn__login" href="#">Sign in</a>
+                <a class="btn" href="#">Start Trial</a>
             </div>
         </div>
     </div>
 </header>
+<main>
+    <section class="home">
+        <div class="container">
+            <div class="home__wrapper">
+                <h1 class="home__title">Be aware, <br> Manage well.</h1>
+                <div>
+                    <p class="home__text">Everyone experiences stress in different ways.
+                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                </div>
+                <div class="home__btn">
+                    <a class="btn btn-big" href="#">Find Your Way</a>
+                </div>
+            </div>
+        </div>
+        <div class="home__img">
+            <img src="./img/home-bg.jpg" alt="home-background">
+        </div>
+    </section>
+    <section class="works">
+        <div class="container">
+            <div class="works__header">
+                <div class="works__header-head">
+                    <h2 class="works__title">How it works</h2>
+                    <h3 class="works__subtitle">Understand & Release the stress in 3 steps</h3>
+                </div>
+                <div class="works__header-content">
+                    <p>Alivio offers as many journals it takes, tackling different areas such as anxiety,
+                        overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware
+                        of your emotions, and guide you in how to manage stress.
+                    </p>
+                </div>
+            </div>
+            <div class="works__steps">
+                <div class="step">
+                    <h3 class="step__heading" data-number="01">Personalize</h3>
+                    <div class="step__text">
+                        <p>Answer a quick survey about how you express yourself, what causes you stress, and what area
+                            would you like to work on. This way, we can fully personalize your journal!
+                        </p>
+                    </div>
+                    <div class="step__img-wrapper">
+                        <img class="step__img" src="./img/step-1.jpg" alt="step1">
+                    </div>
+                </div>
+                <div class="step">
+                    <h3 class="step__heading" data-number="02">Write & Understand</h3>
+                    <div class="step__text">
+                        <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you
+                            manage your stress!</p>
+                    </div>
+                    <div class="step__img-wrapper">
+                        <img class="step__img" src="./img/step-2.jpg" alt="step1">
+                    </div>
+                </div>
+                <div class="step">
+                    <h3 class="step__heading" data-number="03">Alivio!</h3>
+                    <div class="step__text">
+                        <p>Now you are aware, and have a way to manage and overcome your own stress.
+                            What are you waiting for? Alivio today!</p>
+                    </div>
+                    <div class="step__img-wrapper">
+                        <img class="step__img" src="./img/step-3.jpg" alt="step1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="story">
+        <div class="container container-wide">
+            <div class="story__wrapper">
+                <div class="story__content">
+                    <h3 class="story__content-title">
+                        Let's hear about Kayla's success story
+                    </h3>
+                    <p class="story_content-text">
+                        See how well Alivio works in a real customer’s life.
+                    </p>
+                    <div class="story__btn">
+                        <a class="btn" href="#">Let’s get started</a>
+                    </div>
+                </div>
+                <div class="story__video">
+                    <div class="story__video-overlay">
+                        <button class="story__button-btn">
+                            <img src="./img/play-white.svg" alt="play">
+                        </button>
+                    </div>
+                    <img src="./img/story-video.jpg" alt="story-video" class="story__video-object">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="product__wrapper">
+                <div class="product__img-wrapper">
+                    <img class="product__img" src="./img/product-fon.jpg" alt="product-fon">
+                    <div class="product__card">
+                        <div class="card">
+                            <h2 class="card__head">Customized For</h2>
+                            <div class="card__avatar">
+                                <img class="card__avatar-img" src="./img/product-fon-sm.jpg" alt="product-fon-small">
+                                <p class="card__avatar-name">Mikayla</p>
+                            </div>
+                            <div class="card__contents">
+                                <h3 class="card__contents-title">Your custom contents</h3>
+                                <ul class="card__contents-items">
+                                    <li class="card__item">Understand Your Stress</li>
+                                    <li class="card__item">Anger Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__content">
+                    <h2 class="product__content-heading">Our product</h2>
+                    <h3 class="product__content-title">
+                        You tell us your stress, We make your diary
+                    </h3>
+                    <p class="product__content-text">
+                        Everyone experiences it, and in different ways.
+                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+                    </p>
+                    <div class="product__content-btn">
+                        <a class="btn" href="#">Find Your Way</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
