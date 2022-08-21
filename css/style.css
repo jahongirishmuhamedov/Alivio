@@ -5,6 +5,10 @@ body {
     color: #424242;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .none {
     display: none !important;
 }
@@ -136,6 +140,10 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.home__btn {
+    color: #fff;
 }
 
 .works {
@@ -311,6 +319,10 @@ body {
     max-width: 584px;
 }
 
+.product__content-btn {
+    color: #fff;
+}
+
 .product__img-wrapper {
     position: relative;
     margin-right: 86px;
@@ -353,14 +365,14 @@ body {
     height: 0.75px;
     left: -7px;
     right: -7px;
-    bottom: ;
+    bottom: -2px;
 }
 
 .product__content-title {
     line-height: 157%;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .product__content-title {
@@ -377,4 +389,67 @@ body {
     line-height: 157%;
     max-width: 530px;
 }
+
+.card__avatar {
+    margin-top: 15px;
+}
+
+.card__avatar {
+    line-height: 157%;
+    color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card__contents-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 157%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card__item {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 157%;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #245852;
+    color: #fff;
+}
+
+.footer__logo {
+    font-family: 'Avenir', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    padding-top: 95px;
+}
+
+.footer__item {
+    margin-top: 60px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__item:last-child {
+   padding-bottom: 144px;
+}
+
+
+
 
